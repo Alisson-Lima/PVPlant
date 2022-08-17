@@ -1,1 +1,1 @@
-This is a little project to test my abilities in react
+This is a little project to test my abilities in react and some animations in css
