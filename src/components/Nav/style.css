@@ -10,7 +10,7 @@
 }
 
 .Menu .logo{
-    width: 100%;
+    width: 81px;
     height: 80px;
     background-color: #6EDE5C;
     display: flex;
@@ -29,11 +29,16 @@
     padding: 50px 0;
 }
 
+.Menu .social svg:hover path{
+    fill: rgb(126, 126, 126);
+}
+
 @media screen and (min-width: 1024px) {
     .Menu{
         min-width: 120px;
     }
     .Menu .logo{
         height: 120px;
+        width: 120px;
     }
 }
