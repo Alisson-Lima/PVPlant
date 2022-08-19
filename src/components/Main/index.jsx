@@ -1,3 +1,4 @@
+import "./style.css"
 export function Main(){
     return (
         <main>
@@ -12,9 +13,9 @@ export function Main(){
                     </div>
             </header>
             <article className="Title">
-                <h1>Paisagismo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat veniam maxime repellendus ipsam asperiores dolor aspernatur obcaecati quasi facilis pariatur, odio deleniti eveniet qui eos eaque voluptatem, temporibus eligendi!</p>
-                <a href="#" className="CTA-button">See More</a>
+                <h1>Paisa<wbr/>gismo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tellus dui, finibus non condimentum vitae.</p>
+                <a href="#" className="CTA-button" onClick={(e) => e.preventDefault()}>See More</a>
             </article>
             <div className="others">
                 <article>

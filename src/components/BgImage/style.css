@@ -1,0 +1,22 @@
+.bgImage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 80px);
+    height: 50vh;
+    left: 80px;
+    overflow: hidden;
+}
+
+.bgImage img{
+    position: relative;
+    display: block;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    .bgImage{
+        left: 120px;
+        width: calc(100% - 120px);
+    }
+}
