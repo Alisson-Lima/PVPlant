@@ -61,12 +61,21 @@ main header .search-bar svg{
 }
 @media screen and (min-width: 1024px) {
     main{
-        width: calc(100% - 120px);
-        left: 120px;
+        position: absolute;
+        width: 58.2%;
+        left: 9.38%;
+        height: 100%;
+        min-height: 100vh;
+        top: 0;
+        padding: 20px 50px;
     }
     main header{
-        width: calc(100% - 120px);
-        left: 120px;
+        position: relative;
+        width: 270px;
+        margin-bottom: 50px;
+        left: 0;
+        padding: 0;
+        background: transparent;
     }
     main header .search-bar input{
         border-color: #252525;
@@ -74,5 +83,25 @@ main header .search-bar svg{
     }
     main header .search-bar svg path{
         stroke: #252525;
+    }
+
+    main .Title h1{
+        font-size: 6.25rem;
+    }
+    main .Title P{
+        max-width: 70%;
+        margin-bottom: 50px;
+    }
+    main .Title .CTA-button{
+        margin-bottom: none;
+    }
+
+    main .others{
+        display: flex;
+        gap: 10px;
+        margin-top: 80px;
+    }
+    main .others article{
+        width: 350px;
     }
 }

@@ -17,6 +17,9 @@
 @media screen and (min-width: 1024px){
     .bgImage{
         left: 120px;
-        width: calc(100% - 120px);
+        width: 32.42%;
+        left: calc(9.38% + 58.2%);
+        max-height: none;
+        height: 100vh;
     }
 }
