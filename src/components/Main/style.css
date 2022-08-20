@@ -28,13 +28,13 @@ main header{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: calc(100% - 80px);
     height: 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
-    left: 0;
+    left: 80px;
     padding: 0 20px;
-    top: -50vh;
+    top: 0;
 }
 main header .search-bar{
     display: block;
@@ -63,5 +63,16 @@ main header .search-bar svg{
     main{
         width: calc(100% - 120px);
         left: 120px;
+    }
+    main header{
+        width: calc(100% - 120px);
+        left: 120px;
+    }
+    main header .search-bar input{
+        border-color: #252525;
+        color: #252525;
+    }
+    main header .search-bar svg path{
+        stroke: #252525;
     }
 }
