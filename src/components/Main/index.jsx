@@ -4,10 +4,10 @@ export function Main(){
         <main>
             <header>
                 <div className="search-bar">
-                    <input type="text" placeholder="Search"/>
+                    <input type="text"/>
                     <span>
                         <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14 14L19 19M16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9Z" stroke="#252525" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M14 14L19 19M16 9C16 12.866 12.866 16 9 16C5.13401 16 2 12.866 2 9C2 5.13401 5.13401 2 9 2C12.866 2 16 5.13401 16 9Z" stroke="#D9D9D9" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                     </span>
                     </div>
